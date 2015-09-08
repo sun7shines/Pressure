@@ -194,11 +194,11 @@ def operation_test(userinfo):
 
 def io_test(userinfo):
     if_11_file_upload('/normal/文 件3', '/root/openfileresa-2.99.1-x86_64-disc1.iso',userinfo)
-#    if_19_copy('/normal/文 件3','/normal/文 件5','f',userinfo)
+    if_19_copy('/normal/文 件3','/normal/文 件5','f',userinfo)
     if_05_object_list('/normal',userinfo)
-#    if_15_delete('/normal/文 件3','f',userinfo)
-#    if_15_delete('/normal/文 件5','f',userinfo)
-#    if_30_rcy_reset(userinfo)
+    if_15_delete('/normal/文 件3','f',userinfo)
+    if_15_delete('/normal/文 件5','f',userinfo)
+    if_30_rcy_reset(userinfo)
 
 def cp_test(userinfo):
 
